@@ -1,0 +1,88 @@
+# ==============================================================================
+# Backend Security & Environment Variables (NEVER COMMIT SECRETS)
+# ==============================================================================
+.env
+*.env
+.env.*
+!.env.example
+*.pem
+*.key
+*.cert
+credentials.json
+secrets.json
+
+# ==============================================================================
+# Python & Virtual Environments
+# ==============================================================================
+venv/
+.venv/
+env/
+ENV/
+env.bak/
+venv.bak/
+
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+*.pyc
+*.pyo
+*.pyd
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+pip-wheel-metadata/
+share/python-wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# ==============================================================================
+# Testing, Linting & Coverage
+# ==============================================================================
+.pytest_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+coverage.xml
+*.cover
+*.py,cover
+
+# ==============================================================================
+# User Media Uploads
+# ==============================================================================
+uploads/*
+!uploads/.gitkeep
+
+# ==============================================================================
+# Logs & Databases
+# ==============================================================================
+logs/
+*.log
+*.sqlite
+*.sqlite3
+*.db
+
+# ==============================================================================
+# IDE & Operating System Files
+# ==============================================================================
+.vscode/
+.idea/
+*.swp
+*.swo
+.DS_Store
+Thumbs.db
+ehthumbs.db
+desktop.ini
